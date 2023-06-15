@@ -31,11 +31,11 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 3297688
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 3290449
   numberOfFiles: 1
   numberOfSubjects: 1
   schemaKey: AssetsSummary
@@ -44,10 +44,11 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - ProcessingModule
+  - CompassDirection
   - Position
   - SpatialSeries
-  - CompassDirection
+  - BehavioralTimeSeries
+  - ProcessingModule
 citation: Markowitz, Jeffrey E.; Gillis, Winthrop; Jay, Maya; Wood, Jeffrey; Harris,
   Ryley W.; Cieszkowski, Robert; Scott, Rebecca; Brann, David; Koveal, Dorothy; Kula,
   Tomasz; Weinreb, Caleb; Osman, Mohammed Abdal Monium ; Pinto, Sandra Romero ; Uchida,
