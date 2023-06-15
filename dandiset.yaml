@@ -49,26 +49,12 @@ assetsSummary:
   - SpatialSeries
   - CompassDirection
 citation: Markowitz, Jeffrey E.; Gillis, Winthrop; Jay, Maya; Wood, Jeffrey; Harris,
-  Ryley W.; Cieszkowski, Robert; Scott, Rebecca; Brann, David (2023) Spontaneous behaviour
-  is structured by reinforcement without explicit reward (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/000559/draft
+  Ryley W.; Cieszkowski, Robert; Scott, Rebecca; Brann, David; Koveal, Dorothy; Kula,
+  Tomasz; Weinreb, Caleb; Osman, Mohammed Abdal Monium ; Pinto, Sandra Romero ; Uchida,
+  Naoshige ; Linderman, Scott W.; Sabatini, Bernardo; Datta, Sandeep Robert  (2023)
+  Spontaneous behaviour is structured by reinforcement without explicit reward (Version
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000559/draft
 contributor:
-- affiliation: []
-  email: cody.baker@catalystneuro.com
-  identifier: 0000-0002-0829-4790
-  includeInCitation: false
-  name: Baker, Cody
-  roleName:
-  - dcite:DataCurator
-  schemaKey: Person
-- affiliation: []
-  email: paul.adkisson@catalystneuro.com
-  identifier: 0009-0005-8943-5450
-  includeInCitation: false
-  name: Adkisson, Paul
-  roleName:
-  - dcite:DataCurator
-  schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/03vek6s52
     name: Harvard Medical School
@@ -144,6 +130,230 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard Medical School
+    schemaKey: Affiliation
+  identifier: 0000-0003-2907-6925
+  includeInCitation: true
+  name: Koveal, Dorothy
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard Medical School
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Kula, Tomasz
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard Medical School
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Weinreb, Caleb
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard Medical School
+    schemaKey: Affiliation
+  identifier: 0000-0001-8606-6518
+  includeInCitation: true
+  name: 'Osman, Mohammed Abdal Monium '
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard University
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: 'Pinto, Sandra Romero '
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard University
+    schemaKey: Affiliation
+  identifier: 0000-0002-5755-9409
+  includeInCitation: true
+  name: 'Uchida, Naoshige '
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/00f54p054
+    name: Stanford University
+    schemaKey: Affiliation
+  identifier: 0000-0002-3878-9073
+  includeInCitation: true
+  name: Linderman, Scott W.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard Medical School
+    schemaKey: Affiliation
+  - identifier: https://ror.org/006w34k90
+    name: Howard Hughes Medical Institute
+    schemaKey: Affiliation
+  identifier: 0000-0003-0095-9177
+  includeInCitation: true
+  name: Sabatini, Bernardo
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard Medical School
+    schemaKey: Affiliation
+  email: srdatta@hms.harvard.edu
+  identifier: 0000-0002-8068-3862
+  includeInCitation: true
+  name: 'Datta, Sandeep Robert '
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  schemaKey: Person
+- contactPoint: []
+  identifier: https://ror.org/05h1kgg64
+  includeInCitation: false
+  name: National Institute of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- contactPoint: []
+  identifier: https://ror.org/0492gsr48
+  includeInCitation: false
+  name: Brain Research Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- contactPoint: []
+  identifier: https://ror.org/01cmst727
+  includeInCitation: false
+  name: Simons Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- contactPoint: []
+  identifier: https://ror.org/01d35cw23
+  includeInCitation: false
+  name: Burroughs Wellcome Fund
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- contactPoint: []
+  identifier: https://ror.org/04yhme281
+  includeInCitation: false
+  name: Jane Coffin Childs Memorial Fund for Medical Research
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- contactPoint: []
+  identifier: https://ror.org/052csg198
+  includeInCitation: false
+  name: Alfred P. Sloan Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- affiliation: []
+  includeInCitation: false
+  name: Bhagat, N.
+  roleName:
+  - dcite:ProjectAdministration
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: false
+  name: Araki, J.
+  roleName:
+  - dcite:ProjectAdministration
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: false
+  name: Wallace, J.
+  roleName:
+  - dcite:ProjectAdministration
+  schemaKey: Person
+- contactPoint: []
+  includeInCitation: false
+  name: Harvard Neurobiology Imaging Core
+  roleName:
+  - dcite:Resources
+  schemaKey: Organization
+- contactPoint: []
+  identifier: https://ror.org/01s5ya894
+  includeInCitation: false
+  name: National Institute of Neurological Disorders and Stroke
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- contactPoint: []
+  includeInCitation: false
+  name: HMS Research Instrumentation Core
+  roleName:
+  - dcite:Resources
+  schemaKey: Organization
+- contactPoint: []
+  includeInCitation: false
+  name: Bertarelli Program in Translational Neuroscience and Neuroengineering
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- contactPoint: []
+  identifier: https://ror.org/03wkg3b53
+  includeInCitation: false
+  name: National Eye Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- affiliation: []
+  includeInCitation: false
+  name: Gershman, S.
+  roleName:
+  - dcite:Other
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: false
+  name: Assad, J.
+  roleName:
+  - dcite:Other
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: false
+  name: Shea, S.
+  roleName:
+  - dcite:Other
+  schemaKey: Person
+- contactPoint: []
+  includeInCitation: false
+  name: O2 High Performance Compute Cluster at Harvard Medical School
+  roleName:
+  - dcite:Resources
+  schemaKey: Organization
+- affiliation: []
+  email: paul.adkisson@catalystneuro.com
+  identifier: 0009-0005-8943-5450
+  includeInCitation: false
+  name: Adkisson, Paul
+  roleName:
+  - dcite:DataCurator
+  schemaKey: Person
+- affiliation: []
+  email: cody.baker@catalystneuro.com
+  identifier: 0000-0002-0829-4790
+  includeInCitation: false
+  name: Baker, Cody
+  roleName:
+  - dcite:DataCurator
+  schemaKey: Person
 dateCreated: '2023-06-09T17:30:08.811501+00:00'
 description: Spontaneous animal behaviour is built from action modules that are concatenated
   by the brain into sequences1,2. However, the neural mechanisms that guide the composition
@@ -163,8 +373,7 @@ description: Spontaneous animal behaviour is built from action modules that are 
   these findings suggest a model in which the same circuits and computations that
   govern action choices in structured tasks have a key role in sculpting the content
   of unconstrained, high-dimensional, spontaneous behaviour.
-ethicsApproval:
-- {}
+ethicsApproval: []
 id: DANDI:000559/draft
 identifier: DANDI:000559
 keywords:
