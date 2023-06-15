@@ -6,6 +6,22 @@ about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: S.R.D. is supported by NIH grants RF1AG073625 and R01NS114020, and
+  the Brain Research Foundation. S.R.D., B.L.S. and S.W.L are supported by NIH grant
+  U19NS113201 and and the Simons Collaboration on the Global Brain. J.E.M. is supported
+  by a Career Award at the Scientific Interface (CASI) from the Burroughs Wellcome
+  Fund. W.F.G. is supported by NIH grant F31NS113385. M.J. is supported by NIH grant
+  F31NS122155. C.W. is a Fellow of the Jane Coffin Childs Memorial Fund for Medical
+  Research. S.W.L is supported by the Alfred P. Sloan Foundation. We thank N. Bhagat,
+  J. Araki and J. Wallace for administrative support; the Harvard Neurobiology Imaging
+  Core for imaging support, which is supported as part of NINDS grant NS072030; the
+  HMS Research Instrumentation Core, which is supported by the Bertarelli Program
+  in Translational Neuroscience and Neuroengineering, and by NEI grant EY012196; S.
+  Gershman, J. Assad, S. Shea and members of the Datta laboratory for useful comments
+  on the paper; and S Knemeyer for mouse drawings. Portions of this research were
+  conducted on the O2 High Performance Compute Cluster at Harvard Medical School.
+  Brain diagrams were created with BioRender.com. We apologize to those whose work
+  we were unable to cite due to length limits.
 assetsSummary:
   approach:
   - name: behavioral approach
@@ -32,15 +48,101 @@ assetsSummary:
   - Position
   - SpatialSeries
   - CompassDirection
-citation: Spontaneous behaviour is structured by reinforcement without explicit reward
-  (2023). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000559/draft
+citation: Markowitz, Jeffrey E.; Gillis, Winthrop; Jay, Maya; Wood, Jeffrey; Harris,
+  Ryley W.; Cieszkowski, Robert; Scott, Rebecca; Brann, David (2023) Spontaneous behaviour
+  is structured by reinforcement without explicit reward (Version draft) [Data set].
+  DANDI archive. https://dandiarchive.org/dandiset/000559/draft
 contributor:
 - affiliation: []
-  email: ''
+  email: cody.baker@catalystneuro.com
+  identifier: 0000-0002-0829-4790
   includeInCitation: false
   name: Baker, Cody
   roleName:
   - dcite:DataCurator
+  schemaKey: Person
+- affiliation: []
+  email: paul.adkisson@catalystneuro.com
+  identifier: 0009-0005-8943-5450
+  includeInCitation: false
+  name: Adkisson, Paul
+  roleName:
+  - dcite:DataCurator
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard Medical School
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Markowitz, Jeffrey E.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard Medical School
+    schemaKey: Affiliation
+  identifier: 0000-0002-1659-8639
+  includeInCitation: true
+  name: Gillis, Winthrop
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard Medical School
+    schemaKey: Affiliation
+  identifier: 0000-0001-5537-6476
+  includeInCitation: true
+  name: Jay, Maya
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard Medical School
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Wood, Jeffrey
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard Medical School
+    schemaKey: Affiliation
+  identifier: 0000-0002-6924-4981
+  includeInCitation: true
+  name: Harris, Ryley W.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard Medical School
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Cieszkowski, Robert
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard Medical School
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Scott, Rebecca
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard Medical School
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Brann, David
+  roleName:
+  - dcite:Author
   schemaKey: Person
 dateCreated: '2023-06-09T17:30:08.811501+00:00'
 description: Spontaneous animal behaviour is built from action modules that are concatenated
@@ -65,7 +167,10 @@ ethicsApproval:
 - {}
 id: DANDI:000559/draft
 identifier: DANDI:000559
-keywords: []
+keywords:
+- Basal Ganglia
+- Neural circuits
+- Reward
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
