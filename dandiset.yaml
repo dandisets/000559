@@ -41,8 +41,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 35316976828
-  numberOfFiles: 597
+  numberOfBytes: 51777115220
+  numberOfFiles: 599
   numberOfSubjects: 9
   schemaKey: AssetsSummary
   species:
@@ -66,7 +66,7 @@ citation: Markowitz, Jeffrey E.; Gillis, Winthrop; Jay, Maya; Wood, Jeffrey; Har
   Tomasz; Weinreb, Caleb; Osman, Mohammed Abdal Monium ; Pinto, Sandra Romero ; Uchida,
   Naoshige ; Linderman, Scott W.; Sabatini, Bernardo; Datta, Sandeep Robert  (2023)
   Spontaneous behaviour is structured by reinforcement without explicit reward (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000559/draft
+  draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation:
   - identifier: https://ror.org/03vek6s52
@@ -403,6 +403,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-06-09T17:30:08.811501+00:00'
+datePublished: '2023-08-08T15:34:32.532477+00:00'
 description: Spontaneous animal behaviour is built from action modules that are concatenated
   by the brain into sequences1,2. However, the neural mechanisms that guide the composition
   of naturalistic, self-motivated behaviour remain unknown. Here we show that dopamine
@@ -421,6 +422,7 @@ description: Spontaneous animal behaviour is built from action modules that are 
   these findings suggest a model in which the same circuits and computations that
   govern action choices in structured tasks have a key role in sculpting the content
   of unconstrained, high-dimensional, spontaneous behaviour.
+doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
@@ -438,6 +440,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000559/versions/draft/assets/
 name: Spontaneous behaviour is structured by reinforcement without explicit reward
 protocol: []
+publishedBy:
+  endDate: '2023-08-08T15:34:32.532477+00:00'
+  id: urn:uuid:86b4938c-ef0b-41e5-8244-ac3f1fc99bb7
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-08-08T15:34:32.532477+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:48691e41-7abd-4a51-b625-22e29fd58a5a
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1038/s41586-022-05611-2
   name: Spontaneous behaviour is structured by reinforcement without explicit reward
