@@ -28,6 +28,8 @@ assetsSummary:
     schemaKey: ApproachType
   - name: optogenetic approach
     schemaKey: ApproachType
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
@@ -37,13 +39,18 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 4693878216
-  numberOfFiles: 591
-  numberOfSubjects: 8
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 35316976828
+  numberOfFiles: 597
+  numberOfSubjects: 9
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    name: Homo sapiens - Human
     schemaKey: SpeciesType
   variableMeasured:
   - CompassDirection
@@ -52,6 +59,8 @@ assetsSummary:
   - BehavioralTimeSeries
   - ProcessingModule
   - OptogeneticSeries
+  - ImagingPlane
+  - OpticalChannel
 citation: Markowitz, Jeffrey E.; Gillis, Winthrop; Jay, Maya; Wood, Jeffrey; Harris,
   Ryley W.; Cieszkowski, Robert; Scott, Rebecca; Brann, David; Koveal, Dorothy; Kula,
   Tomasz; Weinreb, Caleb; Osman, Mohammed Abdal Monium ; Pinto, Sandra Romero ; Uchida,
