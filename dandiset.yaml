@@ -41,9 +41,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 6911204890404
-  numberOfFiles: 2430
-  numberOfSubjects: 43
+  numberOfBytes: 7154185317458
+  numberOfFiles: 2473
+  numberOfSubjects: 45
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
@@ -402,7 +402,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-06-09T17:30:08.811501+00:00'
-datePublished: '2023-12-11T10:28:24.637525+00:00'
+datePublished: '2023-12-11T12:46:24.642381+00:00'
 description: Spontaneous animal behaviour is built from action modules that are concatenated
   by the brain into sequences1,2. However, the neural mechanisms that guide the composition
   of naturalistic, self-motivated behaviour remain unknown. Here we show that dopamine
@@ -440,13 +440,13 @@ manifestLocation:
 name: Spontaneous behaviour is structured by reinforcement without explicit reward
 protocol: []
 publishedBy:
-  endDate: '2023-12-11T10:28:24.637525+00:00'
-  id: urn:uuid:ab62b598-bb41-45aa-8af7-5dd38b88e1c9
+  endDate: '2023-12-11T12:46:24.642381+00:00'
+  id: urn:uuid:b5908b92-8fd3-474b-b79b-1296a90977e5
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-12-11T10:28:24.637525+00:00'
+  startDate: '2023-12-11T12:46:24.642381+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:48abfa80-e513-4671-a32d-e1deb656b616
+  - id: urn:uuid:1cda9f86-a6f9-401f-9e8b-8b1d0dbbf9bc
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
