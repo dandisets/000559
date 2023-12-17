@@ -368,7 +368,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-06-09T17:30:08.811501+00:00'
-datePublished: '2023-12-17T08:02:00.214400+00:00'
+datePublished: '2023-12-17T09:02:00.210252+00:00'
 description: Spontaneous animal behaviour is built from action modules that are concatenated
   by the brain into sequences. However, the neural mechanisms that guide the composition
   of naturalistic, self-motivated behaviour remain unknown. Here we show that dopamine
@@ -406,13 +406,13 @@ manifestLocation:
 name: Spontaneous behaviour is structured by reinforcement without explicit reward
 protocol: []
 publishedBy:
-  endDate: '2023-12-17T08:02:00.214400+00:00'
-  id: urn:uuid:4487cd7b-3784-45c7-bb9b-326516bb5b04
+  endDate: '2023-12-17T09:02:00.210252+00:00'
+  id: urn:uuid:3c368a58-bd0d-44a3-93dc-feebeae22101
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-12-17T08:02:00.214400+00:00'
+  startDate: '2023-12-17T09:02:00.210252+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:cf3a468e-dabe-47fe-88bb-0a39be3f7283
+  - id: urn:uuid:d6e63283-0fba-4239-8dde-fb9c676ce638
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
