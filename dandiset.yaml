@@ -26,9 +26,9 @@ assetsSummary:
   approach:
   - name: microscopy approach; cell population imaging
     schemaKey: ApproachType
-  - name: optogenetic approach
-    schemaKey: ApproachType
   - name: behavioral approach
+    schemaKey: ApproachType
+  - name: optogenetic approach
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
@@ -41,8 +41,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 19326549580492
-  numberOfFiles: 5192
+  numberOfBytes: 19619247130475
+  numberOfFiles: 5242
   numberOfSubjects: 64
   schemaKey: AssetsSummary
   species:
@@ -56,10 +56,10 @@ assetsSummary:
   - ImagingPlane
   - OpticalChannel
   - ProcessingModule
-  - OptogeneticSeries
   - CompassDirection
   - Position
   - SpatialSeries
+  - OptogeneticSeries
 citation: Markowitz, Jeffrey E.; Gillis, Winthrop; Jay, Maya; Wood, Jeffrey; Harris,
   Ryley W.; Cieszkowski, Robert; Scott, Rebecca; Brann, David; Koveal, Dorothy; Kula,
   Tomasz; Weinreb, Caleb; Osman, Mohammed Abdal Monium ; Pinto, Sandra Romero ; Uchida,
@@ -402,7 +402,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-06-09T17:30:08.811501+00:00'
-datePublished: '2024-01-18T06:01:34.068050+00:00'
+datePublished: '2024-01-18T06:53:34.072844+00:00'
 description: Spontaneous animal behaviour is built from action modules that are concatenated
   by the brain into sequences. However, the neural mechanisms that guide the composition
   of naturalistic, self-motivated behaviour remain unknown. Here we show that dopamine
@@ -440,13 +440,13 @@ manifestLocation:
 name: Spontaneous behaviour is structured by reinforcement without explicit reward
 protocol: []
 publishedBy:
-  endDate: '2024-01-18T06:01:34.068050+00:00'
-  id: urn:uuid:7b8b2fb1-3715-43ef-910a-820d6bab9ee2
+  endDate: '2024-01-18T06:53:34.072844+00:00'
+  id: urn:uuid:6b9d6f07-5e23-4db4-bc38-1d2642f67c48
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-01-18T06:01:34.068050+00:00'
+  startDate: '2024-01-18T06:53:34.072844+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:98199c26-b5fb-4f9f-ba3e-023fdd3872ae
+  - id: urn:uuid:eaed2dce-1759-433e-b776-6674d38a935a
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
