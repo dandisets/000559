@@ -41,9 +41,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 14752652474870
-  numberOfFiles: 4423
-  numberOfSubjects: 67
+  numberOfBytes: 14753252327642
+  numberOfFiles: 4425
+  numberOfSubjects: 69
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
@@ -65,7 +65,7 @@ citation: Markowitz, Jeffrey E.; Gillis, Winthrop; Jay, Maya; Wood, Jeffrey; Har
   Tomasz; Weinreb, Caleb; Osman, Mohammed Abdal Monium ; Pinto, Sandra Romero ; Uchida,
   Naoshige ; Linderman, Scott W.; Sabatini, Bernardo; Datta, Sandeep Robert  (2024)
   Spontaneous behaviour is structured by reinforcement without explicit reward (Version
-  draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000559/draft
 contributor:
 - affiliation:
   - identifier: https://ror.org/03vek6s52
@@ -236,9 +236,9 @@ contributor:
   schemaKey: Person
 - awardNumber: RF1AG073625
   contactPoint: []
-  identifier: https://ror.org/05h1kgg64
+  identifier: https://ror.org/01cwqze88
   includeInCitation: false
-  name: National Institute of Health
+  name: National Institutes of Health
   roleName:
   - dcite:Funder
   schemaKey: Organization
@@ -402,7 +402,6 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-06-09T17:30:08.811501+00:00'
-datePublished: '2024-01-19T07:26:23.848730+00:00'
 description: Spontaneous animal behaviour is built from action modules that are concatenated
   by the brain into sequences. However, the neural mechanisms that guide the composition
   of naturalistic, self-motivated behaviour remain unknown. Here we show that dopamine
@@ -421,7 +420,6 @@ description: Spontaneous animal behaviour is built from action modules that are 
   these findings suggest a model in which the same circuits and computations that
   govern action choices in structured tasks have a key role in sculpting the content
   of unconstrained, high-dimensional, spontaneous behavior.
-doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
@@ -439,18 +437,6 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000559/versions/draft/assets/
 name: Spontaneous behaviour is structured by reinforcement without explicit reward
 protocol: []
-publishedBy:
-  endDate: '2024-01-19T07:26:23.848730+00:00'
-  id: urn:uuid:d83921a5-e4cd-453a-8f56-f33996d413ee
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2024-01-19T07:26:23.848730+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:878605ee-2414-437d-9a7f-c7516aaf37b4
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1038/s41586-022-05611-2
   name: Spontaneous behaviour is structured by reinforcement without explicit reward
