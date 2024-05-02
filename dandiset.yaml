@@ -65,7 +65,7 @@ citation: Markowitz, Jeffrey E.; Gillis, Winthrop; Jay, Maya; Wood, Jeffrey; Har
   Tomasz; Weinreb, Caleb; Osman, Mohammed Abdal Monium ; Pinto, Sandra Romero ; Uchida,
   Naoshige ; Linderman, Scott W.; Sabatini, Bernardo; Datta, Sandeep Robert  (2024)
   Spontaneous behaviour is structured by reinforcement without explicit reward (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000559/draft
+  0.240502.0456) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000559/0.240502.0456
 contributor:
 - affiliation:
   - identifier: https://ror.org/03vek6s52
@@ -421,12 +421,13 @@ description: Spontaneous animal behaviour is built from action modules that are 
   these findings suggest a model in which the same circuits and computations that
   govern action choices in structured tasks have a key role in sculpting the content
   of unconstrained, high-dimensional, spontaneous behavior.
+doi: 10.48324/dandi.000559/0.240502.0456
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
   identifier: '04930'
   schemaKey: EthicsApproval
-id: DANDI:000559/draft
+id: DANDI:000559/0.240502.0456
 identifier: DANDI:000559
 keywords:
 - Basal Ganglia
@@ -435,7 +436,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000559/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000559/0.240502.0456/assets.yaml
 name: Spontaneous behaviour is structured by reinforcement without explicit reward
 protocol: []
 publishedBy:
@@ -461,6 +462,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000559/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000559/0.240502.0456
+version: 0.240502.0456
 wasGeneratedBy: []
