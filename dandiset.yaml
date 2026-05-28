@@ -7,6 +7,9 @@ about:
 - identifier: http://purl.obolibrary.org/obo/UBERON_0005382
   name: dorsal striatum
   schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/CL_0000700
+  name: dopaminergic neuron
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -75,6 +78,10 @@ contributor:
   - identifier: https://ror.org/03vek6s52
     name: Harvard Medical School
     schemaKey: Affiliation
+  - identifier: https://ror.org/01zkghx44
+    name: Georgia Institute of Technology
+    schemaKey: Affiliation
+  identifier: 0000-0003-2362-1937
   includeInCitation: true
   name: Markowitz, Jeffrey E.
   roleName:
@@ -141,6 +148,7 @@ contributor:
   - identifier: https://ror.org/03vek6s52
     name: Harvard Medical School
     schemaKey: Affiliation
+  identifier: 0000-0001-8844-8886
   includeInCitation: true
   name: Brann, David
   roleName:
@@ -160,6 +168,7 @@ contributor:
   - identifier: https://ror.org/03vek6s52
     name: Harvard Medical School
     schemaKey: Affiliation
+  identifier: 0000-0002-6458-9833
   includeInCitation: true
   name: Kula, Tomasz
   roleName:
@@ -169,6 +178,7 @@ contributor:
   - identifier: https://ror.org/03vek6s52
     name: Harvard Medical School
     schemaKey: Affiliation
+  identifier: 0000-0001-6100-6084
   includeInCitation: true
   name: Weinreb, Caleb
   roleName:
@@ -188,6 +198,7 @@ contributor:
   - identifier: https://ror.org/03vek6s52
     name: Harvard University
     schemaKey: Affiliation
+  identifier: 0000-0003-0194-1198
   includeInCitation: true
   name: 'Pinto, Sandra Romero '
   roleName:
@@ -377,33 +388,33 @@ contributor:
   schemaKey: Person
 - awardNumber: R01NS114020
   contactPoint: []
-  identifier: https://ror.org/03f394x19
+  identifier: https://ror.org/01cwqze88
   includeInCitation: false
-  name: National Institute of Health
+  name: National Institutes of Health
   roleName:
   - dcite:Funder
   schemaKey: Organization
 - awardNumber: U19NS113201
   contactPoint: []
-  identifier: https://ror.org/03f394x19
+  identifier: https://ror.org/01cwqze88
   includeInCitation: false
-  name: National Institute of Health
+  name: National Institutes of Health
   roleName:
   - dcite:Funder
   schemaKey: Organization
 - awardNumber: F31NS113385
   contactPoint: []
-  identifier: https://ror.org/03f394x19
+  identifier: https://ror.org/01cwqze88
   includeInCitation: false
-  name: National Institute of Health
+  name: National Institutes of Health
   roleName:
   - dcite:Funder
   schemaKey: Organization
 - awardNumber: F31NS122155
   contactPoint: []
-  identifier: https://ror.org/03f394x19
+  identifier: https://ror.org/01cwqze88
   includeInCitation: false
-  name: National Institute of Health
+  name: National Institutes of Health
   roleName:
   - dcite:Funder
   schemaKey: Organization
@@ -448,8 +459,21 @@ relatedResource:
   name: Spontaneous behaviour is structured by reinforcement without explicit reward
   relation: dcite:IsDescribedBy
   repository: Nature
+  resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://www.nature.com/articles/s41586-022-05611-2
+- name: datta-lab-to-nwb
+  relation: dcite:IsCompiledBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/catalystneuro/datta-lab-to-nwb
+- name: Dandiset 000559 Example Notebook
+  relation: dcite:IsSupplementedBy
+  repository: DANDI Archive
+  resourceType: dcite:ComputationalNotebook
+  schemaKey: Resource
+  url: https://dandi.github.io/example-notebooks/#dandiset-000559
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
