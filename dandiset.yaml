@@ -74,7 +74,7 @@ citation: Markowitz, Jeffrey E.; Gillis, Winthrop; Jay, Maya; Wood, Jeffrey; Har
   Tomasz; Weinreb, Caleb; Osman, Mohammed Abdal Monium ; Pinto, Sandra Romero ; Uchida,
   Naoshige ; Linderman, Scott W.; Sabatini, Bernardo; Datta, Sandeep Robert  (2026)
   Spontaneous behaviour is structured by reinforcement without explicit reward (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000559/draft
+  0.261113.1911) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000559/0.261113.1911
 contributor:
 - affiliation:
   - identifier: https://ror.org/03vek6s52
@@ -421,6 +421,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-06-09T17:30:08.811501+00:00'
+datePublished: '2026-11-13T19:11:16.373833+00:00'
 description: Spontaneous animal behaviour is built from action modules that are concatenated
   by the brain into sequences. However, the neural mechanisms that guide the composition
   of naturalistic, self-motivated behaviour remain unknown. Here we show that dopamine
@@ -439,12 +440,13 @@ description: Spontaneous animal behaviour is built from action modules that are 
   these findings suggest a model in which the same circuits and computations that
   govern action choices in structured tasks have a key role in sculpting the content
   of unconstrained, high-dimensional, spontaneous behavior.
+doi: 10.48324/dandi.000559/0.261113.1911
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
   identifier: '04930'
   schemaKey: EthicsApproval
-id: DANDI:000559/draft
+id: DANDI:000559/0.261113.1911
 identifier: DANDI:000559
 keywords:
 - Basal Ganglia
@@ -453,9 +455,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000559/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000559/0.261113.1911/assets.yaml
 name: Spontaneous behaviour is structured by reinforcement without explicit reward
 protocol: []
+publishedBy:
+  endDate: '2026-11-13T19:11:16.373833+00:00'
+  id: urn:uuid:ae3dbaa1-2b15-4a1f-a45c-5d7a0eac34d7
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-11-13T19:11:16.373833+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:89bc732a-ac2d-4ea4-a715-1460abadefa2
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1038/s41586-022-05611-2
   name: Spontaneous behaviour is structured by reinforcement without explicit reward
@@ -476,6 +490,52 @@ relatedResource:
   resourceType: dcite:ComputationalNotebook
   schemaKey: Resource
   url: https://dandi.github.io/example-notebooks/#dandiset-000559
+releaseNotes: "## Changes since version 0.260528.0858\n\nThe 1,939 NWB files of the
+  mice were corrected in place, without re-conversion, to fix problems found by a
+  reproduction attempt ([catalystneuro/datta-lab-to-nwb issue #111](https://github.com/catalystneuro/datta-lab-to-nwb/issues/111)).
+  The new tables come from the lab's processed data ([Zenodo 10.5281/zenodo.7274803](https://doi.org/10.5281/zenodo.7274803)).
+  The videos, the three HEK293 files and all file names are unchanged. Each file's
+  `notes` lists what was changed.\n\n**Corrections**\n\n- **Subject.** Every file
+  described its mouse as DAT-IRES-Cre and Ai32, the dLight-only C57BL/6J mice included.
+  Each file now gives the mouse's genotype, the strain where it is known and a description
+  of its group (Opto-DA, no-opsin control, dLight+ChrimsonR, dLight only), with the
+  lab's group code.\n- **Light source.** The ChR2 (Ai32) mice and the no-opsin controls
+  were recorded as stimulated by the 635 nm Opto Engine laser that only the ChrimsonR
+  mice used. They now have a 470 nm light source (1,434 files). The control mice's
+  stimulation site was the group code \"ctrl\"; it is now the fiber's region where
+  the source gives it.\n- **Time order.** The syllable series of 582 files and the
+  dF/F series of 27 were written in the lab's table order, which is not time order.
+  They are sorted by time, and the two files of mouse 3155 that held every row twice
+  hold it once.\n- **Stimulation series.** Its zero samples marking the start and
+  end of the session were taken from the first and last table rows, which in unordered
+  files fell mid-session; they are at the session's first and last syllable times
+  (546 files).\n- **Empty syllable series.** In 14 dLight+ChrimsonR sessions run with
+  two target syllables, the syllable series were empty. They are filled from the lab's
+  photometry table, placed on the file's clock by its dF/F rows, which match the lab's
+  table value for value.\n- **Video links.** The links to the depth and IR videos
+  used a Windows backslash and did not resolve; they now point to the video assets
+  (1,934 files).\n- **Units.** Position and keypoint series in \"mm\" use the unit
+  name \"millimeters\".\n\n**Additions**\n\n- **Target detections, with the catch
+  trials.** `processing/behavior/TargetDetections` lists every online detection of
+  the target syllable while the closed loop was armed, and whether the light was delivered:
+  58,318 stimulated and 37,707 without light in 805 files. In stimulation sessions
+  the detections without light are the catch trials, which the earlier files left
+  out. The stimulated detections equal the stimulation onsets of each file.\n- **Session
+  details.** `processing/behavior/TargetSessions` gives, for each target syllable,
+  the lab's session number, session name and repeat, experiment type, stimulation
+  duration, exclusion flag and reason (four sessions are marked excluded), and the
+  photometry quality values.\n- **Ontology terms** (HERD) for the species and sex,
+  and, from the Allen Mouse Brain Atlas (MBA), the stimulated and recorded regions:
+  Substantia nigra, compact part (MBA:374), Nucleus accumbens (MBA:56), and Striatum
+  dorsal region (MBA:485) for the dorsolateral and dorsomedial striatum, which the
+  atlas does not separate.\n\n**Known gaps**\n\n- The dLight+ChrimsonR sessions with
+  2 s and 3 s pulsed stimulation (369) and the food-reward sessions are not in the
+  dandiset: their raw data were not available for the conversion.\n- In the velocity-modulation
+  files the stimulation series is 2,700 s later than the syllable series, as the conversion
+  aligned them; the target detections follow the stimulation series.\n- The genotype
+  of mouse 3155 (group snc-eyfp) and whether the five snc-dls-ai32-jrcamp1a mice express
+  jRCaMP1a are not stated in the source.\n- The meaning of the lab's session numbers
+  other than 1 and 2 (stimulation sessions) is not defined in the source."
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
@@ -484,6 +544,6 @@ studyTarget:
   spontaneous behavior.
 - To investigate how dopamine systematically fluctuates in the dorsolateral striatum
   (DLS) during the expression of sub-second behavioral modules.
-url: https://dandiarchive.org/dandiset/000559/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000559/0.261113.1911
+version: 0.261113.1911
 wasGeneratedBy: []
