@@ -33,9 +33,9 @@ assetsSummary:
   approach:
   - name: microscopy approach; cell population imaging
     schemaKey: ApproachType
-  - name: optogenetic approach
-    schemaKey: ApproachType
   - name: behavioral approach
+    schemaKey: ApproachType
+  - name: optogenetic approach
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
@@ -44,13 +44,13 @@ assetsSummary:
   measurementTechnique:
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 14753252327642
-  numberOfFiles: 4425
-  numberOfSubjects: 69
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 14726804274589
+  numberOfFiles: 4240
+  numberOfSubjects: 68
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
@@ -62,11 +62,13 @@ assetsSummary:
   variableMeasured:
   - ImagingPlane
   - OpticalChannel
-  - OptogeneticSeries
-  - ProcessingModule
   - Position
-  - SpatialSeries
   - CompassDirection
+  - OptogeneticSeries
+  - SpatialSeries
+  - ProcessingModule
+  - OptogeneticStimulusSite
+  - RoiResponseSeries
 citation: Markowitz, Jeffrey E.; Gillis, Winthrop; Jay, Maya; Wood, Jeffrey; Harris,
   Ryley W.; Cieszkowski, Robert; Scott, Rebecca; Brann, David; Koveal, Dorothy; Kula,
   Tomasz; Weinreb, Caleb; Osman, Mohammed Abdal Monium ; Pinto, Sandra Romero ; Uchida,
